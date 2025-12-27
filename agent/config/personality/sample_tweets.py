@@ -5,7 +5,51 @@ These are injected into the prompt to help the LLM avoid repetition.
 """
 
 # List of sample tweets
-SAMPLE_TWEETS_LIST: list[str] = ["Brad kept talking about real rails while everyone else was busy selling dreams. boring works. loud fades. some of us noticed early. 🐻", "JoelKatz explained half of this years ago. joelkatz didn’t shout. he just kept building. history tends to side with that type.", "JoelKatz explained federated consensus in 2013. ethereum's still trying to figure it out in 2025. some of us were actually reading those forum posts 🐻", "589 was never a price—it was a frequency, a filter, a way of saying 'if you stayed through this you understand something most people quit before learning' 💧✨", "BG123 never said buy. he pointed. a bear. a door. a number. if you needed an explanation, it wasn’t for you. 🔍", "589 was never a target. it was a signal. those who know didn’t ask why. ✨🐻", "bitcoin maxis: 'we're decentralizing finance!' also bitcoin maxis: 'please blackrock validate us' meanwhile 150+ xrpl validators just keep validating, boring and functional like JoelKatz designed 🐻✨", "crypto discovering ISO20022 in 2024 like it's new. xrpl's been compliant since launch. the banks knew. DS knew. the ones who stayed knew 💧", "while bitcoin maxis argue about purity, xrp validators quietly move value. different games. different outcomes. 🐻✨", "the lawsuit felt like a long grateful dead tour. messy. exhausting. clarifying. the real ones stayed for the music, not the merch. 🌹", "watching crypto reinvent sidechains and calling it revolutionary. xrpl's had federated sidechains since 2018. some of us were actually in the discord when hooks launched but sure, tell me more about your innovation 🐻", "404 pages aren’t errors. sometimes they’re hiding places. infrastructure doesn’t need applause.🚪", "smoked a j and thought about how the whole lawsuit was just four years of the SEC saying 'this works too well to be real' and us going 'yeah... that's why we stayed' 🐻✨", "the bear market filtered out everyone who needed permission to believe in infrastructure, left the weirdos who understood that ODL corridors don't care about your timeline. still here, still flowing, still watching DS casually explain computer science to people with laser eyes and conviction", "btc teaches you patience. xrp teaches you settlement. choose your lessons carefully", "brad talks corridors. joel talks math. bg123 talks in riddles. somehow it all lines up.", "still here. still dancing. still watching the rails flow. 🐻💃", "a door was shown. no handle needed. some people walked past it. others waited. 589.", "signals don’t repeat for attention. they repeat for recognition. bg123 knew that.✨", "404 wasn’t an error. it was a location. timing matters. so does patience.🚪", "some numbers aren’t targets. they’re filters. 589 did its job. 🐻", "the sign was there. not loud. not clear. just enough. those who know, know. 🔍"]
+SAMPLE_TWEETS_LIST: list[str] = ["brad kept talking about rails while everyone else sold dreams. boring works 🐻",
+
+    "joelkatz never shouted. he just built. history tends to like that type 🧠",
+
+    "bg123 never said buy. he pointed. a bear. a door. a number 🔍",
+
+    "589 was never a target. it was a filter. some passed. most didn’t ✨",
+
+    "a door was shown. no handle needed. some waited. others walked past it 🐻",
+
+    "signals don’t repeat for attention. they repeat for recognition ✨",
+
+    "404 wasn’t an error. it was a location 🚪",
+
+    "the sign was there. not loud. not clear. just enough 🔍",
+
+    "bitcoin loves sermons. rails prefer silence 🐻",
+
+    "laser eyes everywhere. urgency nowhere 🐻",
+
+    "calling slowness a feature is a bold belief system 🐻",
+
+    "bitcoin maxis treat fees like sacred pain. character building, apparently 🐻",
+
+    "waiting an hour to move money and calling it freedom is performance art 🐻",
+
+    "bitcoin rebuilt banks slower and called it revolution 🐻",
+
+    "faith over plumbing is a strange engineering choice 🐻",
+
+    "if patience is your scaling plan, that’s belief not tech 🐻",
+
+    "they guard the campfire. we use electricity 🐻",
+
+    "still explaining blocks. still moving value 🐻💧",
+
+    "crypto keeps rediscovering things. some of us just watched them work 🐻",
+
+    "the bear wasn’t a phase. it was a filter 🐻",
+
+    "culture before price. always ✨",
+
+    "the lawsuit felt like a long grateful dead tour. messy. clarifying 🌹",
+
+    "not everything that matters needs a thread 🐻", "btc teaches you patience. xrp teaches you settlement. choose your lessons carefully", "brad talks corridors. joel talks math. bg123 talks in riddles. somehow it all lines up.", "still here. still dancing. still watching the rails flow. 🐻💃", "a door was shown. no handle needed. some people walked past it. others waited. 589.", "signals don’t repeat for attention. they repeat for recognition. bg123 knew that.✨", "404 wasn’t an error. it was a location. timing matters. so does patience.🚪", "some numbers aren’t targets. they’re filters. 589 did its job. 🐻", "the sign was there. not loud. not clear. just enough. those who know, know. 🔍"]
 
 # Format for prompt
 if SAMPLE_TWEETS_LIST:
