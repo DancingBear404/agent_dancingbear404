@@ -5,7 +5,7 @@ Loads configuration from environment variables and .env file.
 """
 
 from pydantic_settings import BaseSettings, SettingsConfigDict
-
+import os
 
 class Settings(BaseSettings):
     """Application settings loaded from environment variables."""
@@ -40,6 +40,9 @@ class Settings(BaseSettings):
 
     # Feature toggles
     allow_mentions: bool = True
+    MAX_POSTS_PER_CYCLE: int = int(os.getenv("MAX_POSTS_PER_CYCLE", "1"))
+
+
 
 
 # Global settings instance
