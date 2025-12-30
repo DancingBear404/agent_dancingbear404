@@ -37,7 +37,7 @@ SAMPLE_TWEETS_LIST: list[str] = ["brad kept talking about rails while everyone e
 
     "if patience is your scaling plan, that’s belief not tech 🐻💀🌹",
 
-    "they guard the campfire. we use electricity 🐻💀🌹",
+    "BTC Maxi guard the campfire. we use electricity 🐻💀🌹",
 
     "still explaining blocks. still moving value 🐻💀🌹",
 
