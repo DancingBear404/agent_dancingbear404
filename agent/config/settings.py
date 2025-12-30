@@ -37,10 +37,11 @@ class Settings(BaseSettings):
     # Unified Agent (new architecture)
     use_unified_agent: bool = True
     agent_interval_minutes: int = 4
+    max_posts_per_cycle: int = 1
 
     # Feature toggles
     allow_mentions: bool = True
-    MAX_POSTS_PER_CYCLE: int = int(os.getenv("MAX_POSTS_PER_CYCLE", "1"))
+  
 
 
 
