@@ -252,13 +252,11 @@ class UnifiedAgent:
                 # Hard limit: allow only ONE post per cycle
                 if tool_name == "create_post":
                 self.posts_this_cycle += 1
-                logger.info(
-                    f"[AGENT] Post created. posts_this_cycle={self.posts_this_cycle}"
-                )
+                logger.info(f"[AGENT] Post created. posts_this_cycle={self.posts_this_cycle}")
 
-                if self.posts_this_cycle >= settings.MAX_POSTS_PER_CYCLE:
+                if self.posts_this_cycle >= settings.max_posts_per_cycle:
                 logger.info(
-                      f"[AGENT] Max posts per cycle reached ({settings.MAX_POSTS_PER_CYCLE}). Forcing cycle end."
+                      f"[AGENT] Max posts per cycle reached ({settings.max_posts_per_cycle}). Forcing cycle end."
                 )
                 break
 
