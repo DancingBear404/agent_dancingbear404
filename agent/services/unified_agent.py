@@ -248,6 +248,19 @@ class UnifiedAgent:
 
                 # Execute tool
                 tool_result = await self._execute_tool(tool_name, params)
+                
+                # Hard limit: allow only ONE post per cycle
+                if tool_name == "create_post":
+                self.posts_this_cycle += 1
+                logger.info(
+                    f"[AGENT] Post created. posts_this_cycle={self.posts_this_cycle}"
+                )
+
+                if self.posts_this_cycle >= settings.MAX_POSTS_PER_CYCLE:
+                logger.info(
+                      f"[AGENT] Max posts per cycle reached ({settings.MAX_POSTS_PER_CYCLE}). Forcing cycle end."
+                )
+                break
 
                 # Check if cycle finished
                 if tool_name == "finish_cycle" or "CYCLE_FINISHED" in tool_result:
