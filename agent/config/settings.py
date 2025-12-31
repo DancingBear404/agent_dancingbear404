@@ -41,6 +41,7 @@ class Settings(BaseSettings):
 
     # Feature toggles
     allow_mentions: bool = True
+    max_posts_per_cycle: int = int(os.getenv("MAX_POSTS_PER_CYCLE", "1"))
   
 
 
