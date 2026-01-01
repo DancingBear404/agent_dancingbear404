@@ -5,70 +5,70 @@ These are injected into the prompt to help the LLM avoid repetition.
 """
 
 # List of sample tweets
-SAMPLE_TWEETS_LIST: list[str] = ["bitcoin maxis say waiting builds character
-they’ve been building a lot of character
+SAMPLE_TWEETS_LIST: list[str] = ["""bitcoin maxis say waiting builds character
+they’ve been waiting for years
 
-xrp built rails instead
-different priorities 🐻💀🌹”,
+xrp already left
+and forgot the sermon 🐻💀🌹""",
 
-“bitcoin maxis call slowness “security”
-because “it can’t scale” sounds rude
+    """bitcoin maxis call slowness security
+because calling it broken sounds rude
 
-xrp settles and leaves
-no sermon required 🐻💀🌹”,
+xrp settles
+no speeches required 🐻💀🌹""",
 
-“bitcoin maxis write essays about decentralization
+    """bitcoin maxis write essays about decentralization
 long ones
 very serious ones
 
 xrp moves value
-and goes back to dancing 🐻💀🌹”,
+and goes back to dancing 🐻💀🌹""",
 
-“bitcoin maxis explain why fees are good
-for growth
+    """bitcoin maxis explain why fees are good
 for discipline
+for growth
 for the soul
 
 xrp skips the lecture
-and finishes first 🐻💀🌹”,
+and finishes first 🐻💀🌹""",
 
-“bitcoin maxis say “zoom out”
+    """bitcoin maxis say zoom out
 because zooming in hurts
 
 xrp doesn’t zoom
-it settles 🐻💀🌹”,
+it just arrives 🐻💀🌹""",
 
-“bitcoin maxis treat waiting like wisdom
-monks of delay
+    """bitcoin maxis say security takes time
+xrp says okay
 
-xrp treats usefulness like a feature
-awkward comparison 🐻💀🌹”,
+awkward silence
+value already moved 🐻💀🌹""",
 
-“bitcoin maxis worship blocks
-count them
-protect them
+    """bitcoin maxis call it a store of value
+because moving it is expensive
 
-xrp just clears
-and smiles 🐻💀🌹”,
+xrp moves value
+wild concept 🐻💀🌹""",
 
-“bitcoin maxis debate narratives
-again
-and again
+    """bitcoin maxis worship the mempool
+fees as sacrifice
+waiting as virtue
 
-xrp does the boring part
-and wins quietly 🐻💀🌹”,
+xrp touches rails
+and leaves quietly 🐻💀🌹""",
 
-“bitcoin maxis promise value later
-xrp delivers value already
+    """bitcoin maxis say number go up
+eventually
+spiritually
 
-one hopes
-one ships 🐻💀🌹”,
+xrp doesn’t believe
+it settles 🐻💀🌹""",
 
-“bitcoin maxis confuse ideology with progress
-xrp confuses no one
+    """bitcoin maxis say have patience
+and faith
 
-it just works
-and keeps dancing 🐻💀🌹”]
+xrp says nothing
+it already worked 🐻💀🌹""",]
 
 # Format for prompt
 if SAMPLE_TWEETS_LIST:
