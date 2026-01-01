@@ -5,51 +5,70 @@ These are injected into the prompt to help the LLM avoid repetition.
 """
 
 # List of sample tweets
-SAMPLE_TWEETS_LIST: list[str] = ["brad kept talking about rails while everyone else sold dreams. boring works 🐻💀🌹",
+SAMPLE_TWEETS_LIST: list[str] = ["bitcoin maxis say waiting builds character
+they’ve been building a lot of character
 
-    "joelkatz never shouted. he just built. history tends to like that type 🐻💀🌹",
+xrp built rails instead
+different priorities 🐻💀🌹”
 
-    "bg123 never said buy. he pointed. a bear. a door. a number 🐻💀🌹",
+“bitcoin maxis call slowness “security”
+because “it can’t scale” sounds rude
 
-    "589 was never a target. it was a filter. some passed. most didn’t 🐻💀🌹",
+xrp settles and leaves
+no sermon required 🐻💀🌹”
 
-    "a door was shown. no handle needed. some waited. others walked past it 🐻💀🌹",
+“bitcoin maxis write essays about decentralization
+long ones
+very serious ones
 
-    "signals don’t repeat for attention. they repeat for recognition 🐻💀🌹",
+xrp moves value
+and goes back to dancing 🐻💀🌹”
 
-    "404 wasn’t an error. it was a location 🐻💀🌹",
+“bitcoin maxis explain why fees are good
+for growth
+for discipline
+for the soul
 
-    "the sign was there. not loud. not clear. just enough 🐻💀🌹",
+xrp skips the lecture
+and finishes first 🐻💀🌹”
 
-    "bitcoin loves sermons. rails prefer silence 🐻💀🌹",
+“bitcoin maxis say “zoom out”
+because zooming in hurts
 
-    "laser eyes everywhere. urgency nowhere 🐻💀🌹",
+xrp doesn’t zoom
+it settles 🐻💀🌹”
 
-    "calling slowness a feature is a bold belief system 🐻💀🌹",
+“bitcoin maxis treat waiting like wisdom
+monks of delay
 
-    "bitcoin maxis treat fees like sacred pain. character building, apparently 🐻💀🌹",
+xrp treats usefulness like a feature
+awkward comparison 🐻💀🌹”
 
-    "waiting an hour to move money and calling it freedom is performance art 🐻💀🌹",
+“bitcoin maxis worship blocks
+count them
+protect them
 
-    "bitcoin rebuilt banks slower and called it revolution 🐻💀🌹",
+xrp just clears
+and smiles 🐻💀🌹”
 
-    "faith over plumbing is a strange engineering choice 🐻💀🌹",
+“bitcoin maxis debate narratives
+again
+and again
 
-    "if patience is your scaling plan, that’s belief not tech 🐻💀🌹",
+xrp does the boring part
+and wins quietly 🐻💀🌹”
 
-    "BTC Maxi guard the campfire. we use electricity 🐻💀🌹",
+“bitcoin maxis promise value later
+xrp delivers value already
 
-    "still explaining blocks. still moving value 🐻💀🌹",
+one hopes
+one ships 🐻💀🌹”
 
-    "crypto keeps rediscovering things. some of us just watched them work 🐻💀🌹",
+“bitcoin maxis confuse ideology with progress
+xrp confuses no one
 
-    "the bear wasn’t a phase. it was a filter 🐻💀🌹",
-
-    "culture before price. always 🐻💀🌹",
-
-    "the lawsuit felt like a long grateful dead tour. messy. clarifying 🐻💀🌹",
-
-    "not everything that matters needs a thread 🐻💀🌹", "btc teaches you patience. xrp teaches you settlement. choose your lessons carefully 🐻💀🌹", "brad talks corridors. joel talks math. bg123 talks in riddles. somehow it all lines up. 🐻💀🌹", "still here. still dancing. still watching the rails flow. 🐻💀🌹", "a door was shown. no handle needed. some people walked past it. others waited. 589. 🐻💀🌹", "signals don’t repeat for attention. they repeat for recognition. bg123 knew that.🐻💀🌹", "404 wasn’t an error. it was a location. timing matters. so does patience.🐻💀🌹", "some numbers aren’t targets. they’re filters. 589 did its job. 🐻💀🌹", "the sign was there. not loud. not clear. just enough. those who know, know. 🐻💀🌹"]
+it just works
+and keeps dancing 🐻💀🌹”]
 
 # Format for prompt
 if SAMPLE_TWEETS_LIST:
